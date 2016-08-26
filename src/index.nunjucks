@@ -1,8 +1,6 @@
 {% extends '_layouts/base.nunjucks' %}
 
 {% import "_modules/link/link.nunjucks" as link %}
-{% import "_modules/home/home.nunjucks" as home %}
-
 
 {% block content %}
 

@@ -20,3 +20,10 @@ sito web personalizzabile multi tema, possibilità di intervenire per modificare
 --> tutti i dati sull' aspetto ed il contenuto del sito web vengono caricati da mongo-db
 --> ci sono due sezioni del sito web, quindi virtualhost 1 = sito virtualhost 2 = cms 
 dal cms io seleziono le configurazioni del sito e personalizzo gli elementi sulla pagina web 
+
+TASKS BREAKDONW:
+1) virtualhosts with gulp
+2) mongo db configuration
+3) read and write from mongodb
+3) how to load configuration data from mongodb
+4) how to apply stylesheets(LESS) and html elements loaded from mongo
