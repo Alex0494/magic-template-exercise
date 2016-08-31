@@ -5,7 +5,21 @@ concat = require('gulp-concat'),
 livereload = require('gulp-livereload'),
 uglifycss = require('gulp-uglifycss'),
 less = require('gulp-less'),
-imagemin = require('gulp-imagemin');
+imagemin = require('gulp-imagemin'),
+browserify = require('gulp-browserify'),
+uglify = require('gulp-uglifyjs');
+
+gulp.task('scripts', function() {
+    // Single entry point to browserify 
+    gulp.src('./src/js/app.js')
+    .pipe(browserify({
+      insertGlobals : true,
+      debug : !gulp.env.production
+    }))
+    .pipe(concat('app.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js'))
+  });
 
 gulp.task('less', function () {
   gulp.src('./src/less/*.less')
@@ -28,7 +42,7 @@ gulp.task('imagemin', function() {
 
 gulp.task('watch', function() {
   gulp.watch('./src/less/*.less', ['less']);
-  gulp.watch('./src/js/*.js', ['']);
+  gulp.watch('./src/js/*.js', ['scripts']);
 });
 
 gulp.task('develop', function () {
@@ -49,6 +63,7 @@ gulp.task('develop', function () {
 });
 
 gulp.task('serve', [
+  'scripts',
   'less',
   'imagemin',
   'develop',
