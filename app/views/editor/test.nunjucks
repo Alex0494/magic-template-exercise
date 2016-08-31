@@ -1,0 +1,6 @@
+{% extends "../website/layout.nunjucks" %}
+{% block content %}
+
+<h1>test</h1>
+
+{% endblock %}

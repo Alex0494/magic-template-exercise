@@ -1,0 +1,17 @@
+{% extends './layout.nunjucks' %}
+
+{% block content %}
+<div class="row">
+	<div class="col-xs-12">
+		<div id="home">
+			{%include "./partials/_banner.nunjucks" ignore missing%}
+		</div>
+		<!-- <div id="about">
+			{%include "./partials/_about.nunjucks" ignore missing%}
+		</div> -->
+		<div id="templates">
+			{%include "./partials/_templates.nunjucks" ignore missing%}
+		</div>
+	</div>
+</div>
+{% endblock %}

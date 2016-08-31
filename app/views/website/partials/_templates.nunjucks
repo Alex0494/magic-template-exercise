@@ -1,0 +1,14 @@
+{% block content %}
+
+<h2 id="templates-title" class="text-center">TEMPLATES</h2>
+
+<div class="row">
+	<!-- this will be into a repeat statement -->
+	<div class="panel panel-default col-xs-2">PROVA</div>
+	<div class="panel panel-default col-xs-2">PROVA</div>
+	<div class="panel panel-default col-xs-2">PROVA</div>
+	<div class="panel panel-default col-xs-2">PROVA</div>
+	<div class="panel panel-default col-xs-2">PROVA</div>
+	<div class="panel panel-default col-xs-2">PROVA</div>
+</div>
+{% endblock %}

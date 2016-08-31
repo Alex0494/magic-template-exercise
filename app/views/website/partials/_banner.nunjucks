@@ -1,0 +1,7 @@
+{%block content%}
+<div class="banner text-center">
+	<h1>Templates Generator</h1>
+	<p>Quick and easy way to create your own, beautiful, templates!</p>
+	<a href="/editor" class="btn btn-lg btn-primary">Get Started</a>
+</div>
+{% endblock %}

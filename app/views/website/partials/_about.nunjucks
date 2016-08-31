@@ -1,0 +1,19 @@
+{% block content %}
+
+<h2 id="about-title" class="text-center">ABOUT</h2>
+
+<div class="row" id="about-section">
+	<div class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat, risus vitae blandit fringilla, mauris mauris volutpat magna, eu feugiat dui turpis quis elit. Quisque placerat erat in rutrum consequat. Integer id enim at libero ornare euismod et nec quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sed orci iaculis, rutrum mi quis, ornare est. Vestibulum ultricies consectetur elit a pretium. Praesent consequat molestie purus, finibus tincidunt sem scelerisque iaculis. Sed in pharetra nisi. Curabitur quam lacus, scelerisque id ante eget, feugiat ornare ex. Donec finibus eleifend augue non tristique. Mauris luctus mi nec leo tempus, id scelerisque arcu elementum.
+
+In consectetur rutrum condimentum. Donec euismod lacus ac sapien ornare, eu ultricies enim consequat. Curabitur sed est vehicula, sagittis felis eu, tempus mauris. Etiam aliquet est quis erat ultrices fermentum a quis nibh. Morbi eget efficitur mauris. In hac habitasse platea dictumst. Vestibulum rutrum est sed molestie vehicula. Pellentesque eget maximus nunc, vel ornare justo. Donec mi nunc, porta vel augue ut, volutpat vulputate nulla. Aliquam lacinia nulla tellus, nec faucibus dui feugiat et. Etiam efficitur dolor ut pulvinar congue. Sed malesuada mi ut elit consectetur consequat ac non libero. Suspendisse pharetra diam at justo lacinia fringilla. Proin ornare diam ac nulla consectetur, at dapibus enim eleifend. Mauris ac ornare sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+</div>
+	<div class="col-xs-6">Pellentesque non sem ex. Nunc tristique tincidunt nisi, in dignissim diam. Pellentesque pretium mi nec lacus aliquam iaculis. Quisque dictum sagittis augue, ut semper justo blandit eget. Sed molestie neque sed diam ultricies, et ultrices felis sollicitudin. Nulla molestie gravida dolor sit amet dapibus. Nulla sollicitudin gravida venenatis.
+
+Integer justo ligula, tempus ac elementum posuere, congue quis felis. Nulla id velit orci. Phasellus tristique accumsan elit ut fermentum. Praesent suscipit vitae nisl sit amet condimentum. Etiam ut felis ultrices, consequat augue non, tincidunt urna. Integer a egestas tellus, venenatis imperdiet dui. Curabitur tempor eget mi in tristique. Quisque aliquet lacus purus, eu pretium purus luctus accumsan. Sed ultrices iaculis est. Proin vitae augue neque. Quisque efficitur ultricies ante, quis pharetra ante finibus at. Cras elementum pulvinar augue. Aliquam condimentum lacinia ex, ut feugiat mi malesuada eu. Aliquam sit amet efficitur arcu. Ut luctus magna condimentum risus aliquam, a tempus nulla tincidunt. Phasellus ultrices arcu felis. Curabitur in ipsum semper metus ornare pretium. Integer ac ex eu diam fermentum pellentesque. Pellentesque tristique dignissim mauris, vitae ornare arcu dictum a. Nullam gravida tincidunt lectus, sed placerat purus rhoncus ut. In facilisis blandit elementum. Nunc a erat placerat odio porta vehicula. Ut varius tortor ut volutpat aliquet. Ut tempus libero non venenatis rhoncus. Sed aliquet eget leo vel sagittis. Duis vulputate vestibulum quam, eget iaculis lorem suscipit in. Fusce in magna est.</div>
+</div>
+
+<div class="row">
+	<a href="/editor" class="col-xs-12 btn btn-success" id="button">CREATE YOUR TEMPLATE</a>
+</div>
+
+{% endblock %}

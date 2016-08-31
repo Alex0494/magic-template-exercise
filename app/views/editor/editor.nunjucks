@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TG - Editor</title>
+	<!-- BOOTSRAP CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- STYLESHEET -->
+	<link rel="stylesheet" href="/css/style.min.css">
+</head>
+<body>
+	{%include "./partials/_nav-editor.nunjucks"%}
+
+	<div id="editor-head">
+		<h1 id="editor-title" class="text-center">WELCOME TO THE EDITOR</h1>
+	</div>
+	
+	<div class="container">
+		
+		<!-- CHOOSE TITLE -->
+		<div class="row">
+			<div class="col-xs-12">
+				<form id="choose-title">
+					<label for="title">Add the name of your website</label>
+					<input id="title" type="text"/>
+				</form>
+			</div>
+		</div>
+		
+		<!-- SELECT TEMPLATE -->
+		<div class="row">
+			<div class="col-xs-12" id="templates">
+				{%include "../website/partials/_templates.nunjucks" ignore missing%}
+			</div>
+		</div>
+		
+		<div class="row">
+			<button class="btn btn-primary btn-lg" type="submit">CUSTOMIZE</button>
+		</div>	
+	</div>
+
+	
+
+	<!-- SCRIPTS -->
+	{% if ENV_DEVELOPMENT %}
+	<script src="http://localhost:35729/livereload.js"></script>
+	{% endif %}
+</body>
+</html>
